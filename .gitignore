@@ -1,0 +1,35 @@
+# Veri setleri (çok büyük - GitHub'a yüklenmez)
+PlantVillage/
+*.zip
+
+# Eğitilmiş modeller (büyük dosyalar)
+*.pt
+*.pkl
+
+# Üretilen veri dosyaları (kod çalışınca tekrar oluşur)
+ozellik_tablosu.csv
+seq2seq_egitim_verisi.json
+training_data.json
+
+# Test görüntüleri
+test_*.jpg
+test_*.jpeg
+test_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# Üretilen çıktı görselleri (opsiyonel - isterseniz silin bu satırları)
+# *.png
